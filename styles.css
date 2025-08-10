@@ -1,0 +1,85 @@
+body {
+    color:black;
+    background: radial-gradient(circle, rgba(12, 123, 125, 1) 0%, rgba(169, 255, 112, 1) 100%);
+    margin: 0px;
+    font-family: "Caprasimo", serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 5px rgba(169, 255, 112, 100);
+    padding: 20px;
+    font-size: 40px; 
+    font-family: "Oswald", sans-serif; 
+    color: rgba(12, 123, 125, 100);
+} 
+.chamada {
+    background: rgba(12, 123, 125, 100);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content:center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    height:200px;
+}
+
+.categoria-vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-vídeos img {
+    opacity: 0.6;
+}
+
+.categoria-vídeos img:hover {
+opacity: 1.0;
+border: 3px solid blue;
+}
+
+.categoria h2 {
+    color: rgba(12, 123, 125, 100);
+}
+
+.soluções {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.soluçõe-vídeos {
+    height: 400px;
+
+}
+
+.soluções-vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.soluções-texto h3 {
+    color: rgba(12, 123, 125, 100);
+    font-size: 35px;
+}
